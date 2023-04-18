@@ -1,0 +1,25 @@
+root {
+    --verdeClaro: #8FBF22;
+    --verdeOscuro: #4C8B33;
+    --doradoClaro: #D2A945;
+    --doradoOscuro: #AE872F;
+}
+
+body{
+    font-family: "Averta";
+    color: black;
+}
+
+
+/*BARRA DE NAVEGACION*/
+#topbar{
+    background: #4C8B33;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+}
+a{
+    color: black;
+    text-decoration: dotted;
+}
