@@ -13,72 +13,95 @@
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
+
+
+
+
 </head>
-<header>
-    <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-start fixed-top">
-    <div class="container d-flex justify-content-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:informesaliviari@aliviari.com">informesaliviari@aliviari.com</a>
-        <i class="bi bi-phone"></i> +51 9999932220
-      </div>
-      <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="https://www.facebook.com/ClinicaAliviari/?locale=es_LA" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/clinicaaliviari/?hl=es" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://pe.linkedin.com/company/clínica-aliviari" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </div>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="imagenes/Logo-sin-Fondo.png" width="150">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <li class="nav-link active" href="#">Inicio</li>
-                    <li class="nav-link active" href="#">Nosotros</li>
-                    </a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Servicios
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Consulta Externa</a></li>
-                            <li><a class="dropdown-item" href="#">Centro Quirúrgico</a></li>
-                            <li><a class="dropdown-item" href="#">Salud Ocupacional</a></li>
-                            <li><a class="dropdown-item" href="#">Laboratorio</a></li>
-                            <li><a class="dropdown-item" href="#">Diagnóstico por Imágenes</a></li>
-                            <li><a class="dropdown-item" href="#">Ambulancia</a></li>
-                            <li><a class="dropdown-item" href="#">Farmacia</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-link active" href="#">Resultados</li>
-                    <li class="nav-link active" href="#">Trabaja con Nosotros</li>
-                    <li class="nav-link active" href="#">Contáctanos</li>
-
-                </div>
-            </div>
-        </div>
-    </nav>
-
-</header>
 
 <body>
-      
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+            <div class="align-items-center d-none d-md-flex">
+                <i class="bi bi-clock"></i> Lunes a Viernes 7AM-4PM
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="bi bi-phone"></i> Escríbenos +51 999993220
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
     
+          <a href="index.html" class="logo me-auto"><img src="imagenes/Logo-sin-Fondo.png" width="160"  alt=""></a>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+    
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
+              <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+              <li class="dropdown"><a href="#">Servicios <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li><a href="#">Drop Down 1</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#departments">Resultados</a></li>
+              <li><a class="nav-link scrollto" href="#doctors">Trabaja con nosotros</a></li>
+          </nav>
+          <!-- .navbar -->
+        </div>
+      </header>
+      <!-- End Header -->
+    <!-- <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/Logo-sin-Fondo.png" width="120">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <li class="nav-link active" href="#">Inicio</li>
+                        <li class="nav-link active" href="#">Nosotros</li>
+                        </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Consulta Externa</a></li>
+                                <li><a class="dropdown-item" href="#">Centro Quirúrgico</a></li>
+                                <li><a class="dropdown-item" href="#">Salud Ocupacional</a></li>
+                                <li><a class="dropdown-item" href="#">Laboratorio</a></li>
+                                <li><a class="dropdown-item" href="#">Diagnóstico por Imágenes</a></li>
+                                <li><a class="dropdown-item" href="#">Ambulancia</a></li>
+                                <li><a class="dropdown-item" href="#">Farmacia</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link active" href="#">Resultados</li>
+                        <li class="nav-link active" href="#">Trabaja con Nosotros</li>
+                        <li class="nav-link active" href="#">Contáctanos</li>
 
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-
-
-
-    <h1>Hola Mundo</h1>
+        </div>
+    </header> -->
 </body>
 
 </html>
