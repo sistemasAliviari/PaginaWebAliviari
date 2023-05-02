@@ -3,11 +3,6 @@
 }
 
 /* CARRUSEL CSS */
-.carousel-item {
-    height: 100vh;
-    min-height: 1080px;
-    max-height: 1080px;
-}
 
 .carousel-caption {
     bottom: 220px;
@@ -81,4 +76,8 @@
         width: 100%;
         line-height: 1.6;
     }
+}
+
+.caracteristicas-wrapper{
+    background-color: green;
 }
