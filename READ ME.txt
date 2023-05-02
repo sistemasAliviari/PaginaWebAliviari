@@ -1,10 +1,12 @@
 Desarrollo de la Nueva Página Web de la Clínica Aliviari - UCSM - Arequipa
 
 Desarrollado por:
+Practicante de Sistemas:
+    - Diego Quiroz Huerta
+Supervisado por:
 Analista de Sistemas:
-    Bach. Ricardo M. Delgado Rivera
-Practicantes Preprofesionales:
-    -Diego Quiroz Huerta
+    - Bach. Ricardo Delgado Rivera
+    
     
 
 
