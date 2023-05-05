@@ -1,9 +1,26 @@
-.section-padding {
-    padding: 100px 0;
+/* COLORES PAGINA WEB */
+body {
+    --verdeoscuro: #008037;
+    --verdeclaro: #90bf23;
+    --doradoclaro: #d2a846;
+    --doradooscuro: #ae872f;
+    --grisclaro: #D0C9C9;
+}
+
+/* NAVBAR CSS */
+.navbar-nav {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: whitesmoke;
+    font-size: 18px;
 }
 
 /* CARRUSEL CSS */
-
 .carousel-caption {
     bottom: 220px;
     z-index: 2;
@@ -34,28 +51,40 @@
     z-index: 1;
 }
 
-/* NAVBAR CSS */
-.navbar-nav {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* FORMULARIO ALIVIAR */
+#mensaje {
+    resize: none;
 }
-
-
-#navbarSupportedContent ul li a:hover {
-    color: whitesmoke;
-    font-size: 18px;
-}
-
 
 /* FOOTER */
 .pb-2:hover {
     color: black;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
+ul li a i:hover {
+    color: black;
+}
+
+#datosContacto {
+    color: white;
+}
+
+#datosContacto:hover {
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
 /* CSS RESPONSIVO */
-@media only screen and (max-width:757px) {
+
+@media (max-width:576px) {
     .navbar-nav {
         text-align: center;
     }
@@ -76,8 +105,76 @@
         width: 100%;
         line-height: 1.6;
     }
+
+    .card-img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
 }
 
-.caracteristicas-wrapper{
-    background-color: green;
+#tituloCard {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#cuerpoCard {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+#servicioCard {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+    position: relative;
+}
+
+#servicioCard:hover #cuerpoCard {
+    right: 0;
+}
+
+#fotoServicio {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#descripcionServicio {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 40px;
+    font-weight: 300px;
 }
