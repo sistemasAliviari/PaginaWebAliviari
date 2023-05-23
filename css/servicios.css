@@ -1,52 +1,99 @@
-/* This pen */
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+  font-weight: 600 !important;
+}
 
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+  font-weight: 500 !important;
+}
 
+h5,
+h6,
+.h5,
+.h6,
+.fw-normal {
+  font-weight: 400 !important;
+}
 
-
-.our_room .room {
-  text-align: center;
-  background-color: #fff;
-  margin-bottom: 30px;
-  transition: ease-in all 0.5s;
+:root {
+  --primary: #B78D65;
+  --light: #F8F8F8;
+  --dark: #252525;
 }
 
 
 
-.our_room .room .room_img figure {
-  margin: 0;
-}
 
-.card-img-top {
+/*** Service ***/
+.service-item .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
   width: 100%;
   transition: all .5s;
+  
 }
 
-.card:hover {
-  transform: scale(1.07  );
-  -webkit-transform: scale(1.07  );
-  -moz-transform: scale(1.07  );
-  -ms-transform: scale(1.07  );
-  -o-transform: scale(1.07  );
-}
-
-
-
-.card:hover.card {
-  cursor:auto;
-  box-shadow: 0px 0px 35px rgba(255, 9, 9, 0.15);
-  transition: ease-in all 0.5s;
-}
-
-.textoServicio{
-  font-size: 14px;
+.service-item .service-text {
+  background: var(--light);
+  transition: .5s;
   text-align: justify;
 }
 
-.tituloServicio{
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-
-
+.service-item:hover .service-text {
+  background: rgba(0, 0, 0, 0.4);
 }
 
+.service-item * {
+  transition: .5;
+}
+
+.service-item:hover * {
+  color: #FFFFFF;
+}
+
+.service-item .btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  
+  color: var(--dark);
+  background: #FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: .5s;
+  align-items: center;
+}
+
+
+
+.service-item:hover .bg-img {
+  opacity: 0.5;
+}
+
+.service-item:hover .mb-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.mb-2{
+  padding: 10px;
+}
