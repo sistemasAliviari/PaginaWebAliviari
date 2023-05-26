@@ -26,9 +26,14 @@ h6,
   --primary: #B78D65;
   --light: #F8F8F8;
   --dark: #252525;
+
+  --verdeoscuro: #008037;
+  --verdeclaro: #90bf23;
+  --doradoclaro: #d2a846;
+  --doradooscuro: #ae872f;
+  --grisclaro: #D0C9C9;
+
 }
-
-
 
 
 /*** Service ***/
@@ -40,7 +45,7 @@ h6,
   z-index: -1;
   width: 100%;
   transition: all .5s;
-  
+
 }
 
 .service-item .service-text {
@@ -65,7 +70,7 @@ h6,
   width: 40px;
   height: 40px;
   display: inline-flex;
-  
+
   color: var(--dark);
   background: #FFFFFF;
   white-space: nowrap;
@@ -73,7 +78,6 @@ h6,
   transition: .5s;
   align-items: center;
 }
-
 
 
 .service-item:hover .bg-img {
@@ -94,6 +98,6 @@ h6,
   -o-transform: scale(1.05);
 }
 
-.mb-2{
+.mb-2 {
   padding: 10px;
 }

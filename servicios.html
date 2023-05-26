@@ -2,33 +2,48 @@
 <html lang="en">
 
 <head>
-    <title>Clínica Aliviari │ Servicios</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="imagenes/Logo-sin-Fondo.png">
     <meta charset="utf-8">
+    <title>Clínica Aliviari │ Servicios</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <!-- Load Require CSS -->
+    <!-- BOOTSTRAP PERSONALIZADO -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font CSS -->
+    <!-- ICONOS BOXICON -->
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
-    <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/servicios.css">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ESTILOS ARCHIVO CSS -->
+    <link href="estilos/estilos.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/Logo-sin-Fondo.png"
-                height="250px" width="200px" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/fotos/Logo-sin-Fondo.png"
+                height="180px" width="180px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,259 +60,217 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-                        href="index.html">Resultados</a>
+                        href="resultados.html">Resultados</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-                        href="index.html">Servicios</a>
+                        href="servicios.html">Servicios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-                        href="index.html">Contáctanos</a>
+                        href="contactanos.html">Contáctanos</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-
-    <div class="container-xxl py-5">
+    <!-- SERVICIOS START -->
+    <div class="container-xxl services py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title display-5 text-success">Consulta Externa</h4>
+                <h4 class="section-title">Clínica Aliviari</h4>
+                <h1 class="display-5 mb-4">Nuestros Servicios</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow ">
-                        <img class="bg-img" src="imagenes/psicologia.webp" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/psicologia.png" alt="Icon">
-                            <h3 class="mb-3">Psicología</h3>
-                            <p class="mb-4">Nuestro equipo de psicólogos está a su disposición para evaluar a las
-                                dimensiones cognitivo, afectivo y conductual, promoviendo el adecuado desarrollo
-                                emocional de las personas en torno a los condicionantes sociales y morales en los que se
-                                desenvuelven; favoreciendo las relaciones que se establecen entre el aspecto psíquico y
-                                físico </p>
-
-                        </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h3 class="m-0">01. Consulta Externa</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h3 class="m-0">02. Centro Quirúrgico</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h3 class="m-0">03. Salud Ocupacional</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <h3 class="m-0">04. Laboratorio</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-5" type="button">
+                            <h3 class="m-0">05. Diagnóstico por Imágenes</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
+                            <h3 class="m-0">06. Ambulancia</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-7" type="button">
+                            <h3 class="m-0">07. Farmacia</h3>
+                        </button>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/cardiologia.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/iconoCardio.png" alt="Icon">
-                            <h3 class="mb-3">Cardiología</h3>
-                            <p class="mb-4">Contamos con equipo médico altamente especializado para atender las
-                                afecciones del corazón y del aparato circulatorio. </p>
-
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/cardiologia.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Consulta Externa</h1>
+                                    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel nihil
+                                        impedit eveniet nobis ex enim aspernatur cumque deleniti commodi minima.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Los mejores profesionales</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Citas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Seguro privado</p>
+                                    <a href="consultaExterna.html" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/ginecologia.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/ginecologia.png" alt="Icon">
-                            <h3 class="mb-3">Ginecología</h3>
-                            <p class="mb-4">Nuestro equipo de ginecólogos altamente capacitados y comprometidos con la
-                                salud de la mujer, está enfocado en la prevención, diagnóstico precoz y tratamiento
-                                oportuno sus enfermedades.</p>
-
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/quirofano.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Centro Quirúrgico</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Los mejores profesionales</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Citas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Seguro privado</p>
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/otorrinoloringologo.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/otorrinolaringologia.png" alt="Icon">
-                            <h3 class="mb-3">Otorrinolaringología</h3>
-                            <p class="mb-4">A través de este servicio brindamos atención en prevención, diagnóstico y
-                                tratamiento, tanto medico como quirúrgico, de las enfermedades del oído, las vías aéreo
-                                digestivas superiores y las
-                                estructuras próximas de la cara y el cuello.</p>
-
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/saludOcupacional.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Salud Ocupacional</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Ferreyros</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>EGASA</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>DIMEXA</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Ferreyros</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>EGASA</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>DIMEXA</p>
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/odontologia.png" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/odontologia.png" alt="Icon">
-                            <h3 class="mb-3">Odontología</h3>
-                            <p class="mb-4">Esta disciplina de la salud aborda las enfermedades del aparato
-                                estomatognático, conformado por los dientes, encías, tejido periodontal, los dos
-                                maxilares y la articulación temporomandibular. Brindamos todo tipo de tratamientos y
-                                cuidados relacionados con la salud bucal, las caries y la mala alineación dental</p>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/laboratorio.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Laboratorio</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Hemograma</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Prueba rápida de covid-19</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Prueba de sangre </p>
 
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/nutricion.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/nutricion.png" alt="Icon">
-                            <h3 class="mb-3">Nutrición</h3>
-                            <p class="mb-4">Contamos con un equipo profesional especializado en la alimentación humana y
-                                su relación con los procesos químicos, metabólicos y biológicos, así como la relación de
-                                los alimentos con la composición corporal y el estado de salud; equipo que ponemos a su
-                                disposición para mantener un ritmo alimenticio saludable y nutritivo; así como para el
-                                manejo de todas las dietas post operatorias.</p>
-
+                        <div class="tab-pane fade" id="tab-pane-5">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/diagnosticoPorImagenes.jpg" style="object-fit: cover;"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Diagnóstico por Imágenes</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Los mejores profesionales</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Citas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Seguro privado</p>
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/urologia.png" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/urologia.png" alt="Icon">
-                            <h3 class="mb-3">Urología</h3>
-                            <p class="mb-4">Nuestro talento humano especializado altamente calificado se ocupara del
-                                estudio, diagnóstico y tratamiento de las patologías que afectan al aparato urinario y
-                                retroperitoneo de ambos sexos.</p>
-
+                        <div class="tab-pane fade" id="tab-pane-6">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/ambulancia.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Ambulancia</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Los mejores profesionales</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Citas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Seguro privado</p>
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100 shadow">
-                        <img class="bg-img" src="imagenes/endocrinologia.webp" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-2" src="imagenes/iconos/endocrino.png" alt="Icon">
-                            <h3 class="mb-3">Endocrinología</h3>
-                            <p class="mb-4">Es la especialidad médica encargada del estudio de la función normal, la
-                                anatomía y los desórdenes producidos por alteraciones de las glándulas endocrinas, que
-                                son aquellas que producen las hormonas. Las glándulas endocrinas son las siguientes:
-                                hipófisis, tiroides, paratiroides, páncreas, glándulas sexuales y
-                                glándulas suprarrenales.</p>
-
+                        <div class="tab-pane fade" id="tab-pane-7">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="imagenes/fotos/farmacia.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Farmacia</h1>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos amet
+                                        esse aliquid consequuntur laborum mollitia nam nisi impedit ipsam quidem!</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Los mejores profesionales</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Citas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Seguro privado</p>
+                                    <a href="" class="btn btn-success py-3 px-5 mt-3">Ver más</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-4 mt-3 mb-5">
-            <div class="col">
-                <div class="cardServicio card shadow">
-                    <img src="imagenes/psicologia.webp" class="card-img-top img-fluid" style="height: 250px;" alt="...">
-                    <div class="card-body">
-                        <h5 class=" tituloServicio card-title display-6 text-success">Psicología</h5>
-                        <p class=" textoServicio card-text">Nuestro equipo de psicólogos está a su disposición para
-                            evaluar a las
-                            dimensiones cognitivo, afectivo y conductual, promoviendo el adecuado desarrollo
-                            emocional de las personas en torno a los condicionantes sociales y morales en los que se
-                            desenvuelven.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class=" cardServicio card shadow" style="height: 445px;">
-                    <img src="imagenes/cardiologia.jpg" class="card-img-top img-fluid" style="height: 250px;" alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Cardiología</h5>
-                        <p class="textoServicio card-text">Contamos con equipo médico altamente especializado para
-                            atender las
-                            afecciones del corazón y del aparato circulatorio. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow " style="height: 445px;">
-                    <img src="imagenes/ginecologia.jpg" class="card-img-top img-fluid" style="height: 250px;" alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Ginecología</h5>
-                        <p class=" textoServicio card-text">Nuestro equipo de ginecólogos altamente capacitados y
-                            comprometidos con la salud de la mujer, está enfocado en la prevención, diagnóstico
-                            precoz y tratamiento oportuno sus enfermedades.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow">
-                    <img src="imagenes/odontologia.png" class="card-img-top img-fluid" style="height: 250px;" alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Odontología</h5>
-                        <p class=" textoServicio card-text">Esta disciplina de la salud aborda las enfermedades del
-                            aparato
-                            estomatognático, conformado por los dientes, encías, tejido periodontal, los dos maxilares y
-                            la articulación temporomandibular. Brindamos todo tipo de tratamientos y cuidados
-                            relacionados con la salud bucal, las caries y la mala alineación dental</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow" style="height: 465px;">
-                    <img src="imagenes/otorrinoloringologo.jpg" class="card-img-top img-fluid" style="height: 250px;"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Otorrinolaringología</h5>
-                        <p class=" textoServicio card-text">A través de este servicio brindamos atención en prevención,
-                            diagnóstico y
-                            tratamiento, tanto medico como quirúrgico, de las enfermedades del oído, las vías aéreo
-                            digestivas superiores y las estructuras
-                            próximas de la cara y el cuello.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow" style="height: 465px;">
-                    <img src="imagenes/endocrinologia.webp" class="card-img-top img-fluid" style="height: 250px;"
-                        alt="...">
+    <!-- SERVICIOS FIN -->
 
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Urología</h5>
-                        <p class="textoServicio card-text">Nuestro talento humano especializado altamente calificado se
-                            ocupara del
-                            estudio, diagnóstico y tratamiento de las patologías que afectan al aparato urinario y
-                            retroperitoneo de ambos sexos.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow">
-                    <img src="imagenes/nutricion.jpg" class="card-img-top" style="height: 250px;" alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Nutrición</h5>
-                        <p class="textoServicio card-text">Contamos con un equipo profesional especializado en la
-                            alimentación
-                            humana y su relación con los procesos químicos, metabólicos y biológicos, así como la
-                            relación de los alimentos con la composición corporal y el estado de salud; equipo que
-                            ponemos a su disposición para mantener un ritmo alimenticio saludable y nutritivo; así como
-                            para el manejo de todas las dietas post operatorias.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cardServicio card shadow" style="height: 485px;">
-                    <img src="imagenes/endocrinologia.webp" class="card-img-top img-fluid" style="height: 250px;"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="tituloServicio card-title display-6 text-success">Endocrinología</h5>
-                        <p class="textoServicio card-text">Es la especialidad médica encargada del estudio de la función
-                            normal, la
-                            anatomía y los desórdenes producidos por alteraciones de las glándulas endocrinas, que son
-                            aquellas que producen las hormonas. Las glándulas endocrinas son las siguientes: hipófisis,
-                            tiroides, paratiroides, páncreas, glándulas sexuales (ovarios y testículos) y glándulas
-                            suprarrenales.</p>
-                    </div>
-                </div>
-            </div>
 
-        </div> -->
-    </div>
-
+    <!-- FOOTER -->
     <div class="pieDePagina" style="background-color: #ae872f;">
         <div class="container">
             <footer id="footer">
                 <div class="row justify-content-sm-center">
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
                         <a href="index.html" class="logo me-auto"> <img class="img-fluid"
-                                src="imagenes/logoAliviari.png" height="300px" width="250px" alt=""></a>
+                                src="imagenes/fotos/logoAliviari.png" height="300px" width="250px" alt=""></a>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 py-4 ">
                         <h2 class="h4 pb-lg-3 text-light light-300 ">Contáctanos</h2>
@@ -343,7 +316,8 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 py-4">
                         <h2 class="h4 pb-lg-3 text-light light-300">Con el respaldo de:</h2>
                         <a href="https://www.ucsm.edu.pe" class="logo me-auto light"> <img class="img-fluid"
-                                src="imagenes/ucsm-logo-retina- positivo.png" height="100px" width="250px" alt=""></a>
+                                src="imagenes/fotos/ucsm-logo-retina- positivo.png" height="100px" width="250px"
+                                alt=""></a>
                     </div>
                 </div>
                 <div class="w-100  py-2 text-center bold-300">
@@ -364,7 +338,7 @@
                                 </li>
                                 <li class="list-inline-item m-0">
                                     <a class="text-light" target="_blank"
-                                        href=https://wa.me/5194077849?text=Buenos%20días,%20quisiera%20hacer%20una%20consulta.>
+                                        href="https://api.whatsapp.com/send?phone=5194077849&text=Buenos%20d%C3%ADas,%20quisiera%20realizar%20una%20consulta%20en%20la%20Cl%C3%ADnica%20Aliviari.">
                                         <i class='bx bxl-whatsapp-square bx-md'></i>
                                     </a>
                             </ul>
@@ -376,6 +350,24 @@
             </footer>
         </div>
     </div>
+    <!-- FOOTER -->
 
 
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
+</html>

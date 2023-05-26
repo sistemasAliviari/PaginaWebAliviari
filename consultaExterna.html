@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Clínica Aliviari │ Inicio </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="imagenes/fotos/Logo-sin-Fondo.png">
     <meta charset="utf-8">
+    <title>Clínica Aliviari │ Servicios</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
     <!-- BOOTSTRAP PERSONALIZADO -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -36,10 +38,11 @@
 
     <!-- ESTILOS ARCHIVO CSS -->
     <link href="estilos/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/consultaExterna.css">
 </head>
 
 <body>
-
+    <!-- BARRA DE NAVEGACION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/fotos/Logo-sin-Fondo.png"
                 height="180px" width="180px" alt=""></a>
@@ -73,107 +76,132 @@
         </div>
     </nav>
 
-    <div class="container-xxl py-5 ">
-        <div class=" container">
+    <!-- CARDS DE SERVICIOS -->
+    <div class="container-xxl py-5">
+        <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="section-title text-success">Contáctanos</h1>
-                <h4 class="display-6 mb-4">Deja tus datos y tu consulta, y nos comunicaremos contigo.</h4>
+                <h4 class="section-title display-5 text-success">Consulta Externa</h4>
             </div>
-            <div class="row g-5">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow ">
+                        <img class="bg-img" src="imagenes/fotos/cardiologia.jpg" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/psicologia.png" alt="Icon">
+                            <h3 class="mb-3">Psicología</h3>
+                            <p class="mb-4">Nuestro equipo de psicólogos está a su disposición para evaluar a las
+                                dimensiones cognitivo, afectivo y conductual, promoviendo el adecuado desarrollo
+                                emocional de las personas en torno a los condicionantes sociales y morales en los que se
+                                desenvuelven; favoreciendo las relaciones que se establecen entre el aspecto psíquico y
+                                físico </p>
 
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="formulario py-5 bg-light">
-                        <div class="container">
-                            <div class="row justify-content-center align-items-center ">
-                                <div class="col-sm-12 col-md-8 col-lg-7 col-xl-7">
-                                    <h1 class="display-6 text-center bg-success 100  text-white  rounded-pill">
-                                        Contáctanos y
-                                        Conversemos
-                                    </h1>
-                                    <div class="form-floating mb-3 mt-4">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Diego">
-                                        <label for="floatingInput">Nombre</label>
-                                    </div>
-                                    <div class="form-floating mb-3 mt-4">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Quiroz">
-                                        <label for="floatingInput">Apellidos</label>
-                                    </div>
-                                    <div class="form-floating mb-3 mt-4">
-                                        <input type="number" class="form-control" id="floatingInput"
-                                            placeholder="999993220">
-                                        <label for="floatingInput">Télefono</label>
-                                    </div>
-                                    <div class="form-floating mb-3 mt-4">
-                                        <input type="email" class="form-control" id="floatingInput"
-                                            placeholder="name@example.com">
-                                        <label for="floatingInput">Correo electrónico</label>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="mensaje" class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
-                                    </div>
-                                    <div class="row justify-content-center align-items-center mb-5 ">
-                                        <div class="col">
-                                            <button type="submit" class="btn btn-success fw-bold">Enviar</button>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/cardiologia.jpg" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/iconoCardio.png" alt="Icon">
+                            <h3 class="mb-3">Cardiología</h3>
+                            <p class="mb-4">Contamos con equipo médico altamente especializado para atender las
+                                afecciones del corazón y del aparato circulatorio. </p>
 
-                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/ginecologia.jpg" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/ginecologia.png" alt="Icon">
+                            <h3 class="mb-3">Ginecología</h3>
+                            <p class="mb-4">Nuestro equipo de ginecólogos altamente capacitados y comprometidos con la
+                                salud de la mujer, está enfocado en la prevención, diagnóstico precoz y tratamiento
+                                oportuno sus enfermedades.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/otorrinoloringologo.jpg" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/otorrinolaringologia.png" alt="Icon">
+                            <h3 class="mb-3">Otorrinolaringología</h3>
+                            <p class="mb-4">A través de este servicio brindamos atención en prevención, diagnóstico y
+                                tratamiento, tanto medico como quirúrgico, de las enfermedades del oído, las vías aéreo
+                                digestivas superiores y las
+                                estructuras próximas de la cara y el cuello.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/odontologia.png" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/odontologia.png" alt="Icon">
+                            <h3 class="mb-3">Odontología</h3>
+                            <p class="mb-4">Esta disciplina de la salud aborda las enfermedades del aparato
+                                estomatognático, conformado por los dientes, encías, tejido periodontal, los dos
+                                maxilares y la articulación temporomandibular. Brindamos todo tipo de tratamientos y
+                                cuidados relacionados con la salud bucal, las caries y la mala alineación dental</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/nutricion.jpg" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/nutricion.png" alt="Icon">
+                            <h3 class="mb-3">Nutrición</h3>
+                            <p class="mb-4">Contamos con un equipo profesional especializado en la alimentación humana y
+                                su relación con los procesos químicos, metabólicos y biológicos, así como la relación de
+                                los alimentos con la composición corporal y el estado de salud; equipo que ponemos a su
+                                disposición para mantener un ritmo alimenticio saludable y nutritivo; así como para el
+                                manejo de todas las dietas post operatorias.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/urologia.png" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/urologia.png" alt="Icon">
+                            <h3 class="mb-3">Urología</h3>
+                            <p class="mb-4">Nuestro talento humano especializado altamente calificado se ocupara del
+                                estudio, diagnóstico y tratamiento de las patologías que afectan al aparato urinario y
+                                retroperitoneo de ambos sexos.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100 shadow">
+                        <img class="bg-img" src="imagenes/fotos/endocrinologia.webp" alt="">
+                        <div class="service-text p-5">
+                            <img class="mb-2" src="imagenes/iconos/endocrino.png" alt="Icon">
+                            <h3 class="mb-3">Endocrinología</h3>
+                            <p class="mb-4">Es la especialidad médica encargada del estudio de la función normal, la
+                                anatomía y los desórdenes producidos por alteraciones de las glándulas endocrinas, que
+                                son aquellas que producen las hormonas. Las glándulas endocrinas son las siguientes:
+                                hipófisis, tiroides, paratiroides, páncreas, glándulas sexuales y
+                                glándulas suprarrenales.</p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- CARDS DE SERVICIOS FIN -->
 
-    <!-- Google Map Start -->
-    <div class="container-xxl pt-3 px-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row ">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="d-flex flex-column justify-content-between h-100">
-                    <div class="bg-light d-flex align-items-center w-100 p-4 mb-2">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                            style="width: 55px; height: 55px;">
-                            <i class="fa fa-map-marker-alt text-success"></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Dirección</p>
-                            <h4 class="mb-0">Leon Velarde N° 406 - Yanahuara</h4>
-                        </div>
-                    </div>
-                    <div class="bg-light d-flex align-items-center w-100 p-4 mb-2">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                            style="width: 55px; height: 55px;">
-                            <i class="fa fa-phone-alt text-success"></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Llámanos</p>
-                            <h4 class="mb-0">054 276764</h4>
-                        </div>
-                    </div>
-                    <div class="bg-light d-flex align-items-center w-100 p-4 mb-2">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                            style="width: 55px; height: 55px;">
-                            <i class="fa fa-clock text-success"></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Horario de atención</p>
-                            <h4 class="mb-0">Lunes a Viernes 7:00a.m - 7:00p.m</h4>
-                            <h4 class="mb-0">Lunes a Viernes 7:00a.m - 1:00p.m</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-6 ">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.800818098514!2d-71.54305258951221!3d-16.384105837686675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a470fe93c27%3A0x848882ab961f1e61!2sLe%C3%B3n%20Velarde%20406%2C%20Arequipa%2004017!5e0!3m2!1ses-419!2spe!4v1685111762843!5m2!1ses-419!2spe"
-                    width="600" height="450" style="border:0; margin-left: auto;margin-right: auto;display: block;"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
+
+
+    <!-- FOOTER -->
     <div class="pieDePagina" style="background-color: #ae872f;">
         <div class="container">
             <footer id="footer">
@@ -260,5 +288,4 @@
             </footer>
         </div>
     </div>
-    <!-- Google Map End -->
 </body>

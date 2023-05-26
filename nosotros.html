@@ -2,33 +2,41 @@
 <html lang="en">
 
 <head>
-	<title>Clínica Aliviari │ Nosotros</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="imagenes/Logo-sin-Fondo.png">
-	<meta charset="utf-8">
+	<<!-- BOOTSTRAP PERSONALIZADO -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<!-- ICONOS BOXICON -->
+		<link href="assets/css/boxicon.min.css" rel="stylesheet">
 
-	<!-- Load Require CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font CSS -->
-	<link href="assets/css/boxicon.min.css" rel="stylesheet">
-	<!-- Load Tempalte CSS -->
-	<link rel="stylesheet" href="css/estilos.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-	</script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+			rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+
+		<!-- Icon Font Stylesheet -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet">
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- ESTILOS ARCHIVO CSS -->
+		<link href="estilos/estilos.css" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-		<a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/Logo-sin-Fondo.png"
-				height="250px" width="200px" alt=""></a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/fotos/Logo-sin-Fondo.png"
+				height="180px" width="180px" alt=""></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -45,15 +53,15 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-						href="index.html">Resultados</a>
+						href="resultados.html">Resultados</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-						href="index.html">Servicios</a>
+						href="servicios.html">Servicios</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link btn-outline-success 300 rounded-pill px-4 bx-fade-up-hover"
-						href="index.html">Contáctanos</a>
+						href="contactanos.html">Contáctanos</a>
 				</li>
 			</ul>
 		</div>
@@ -71,12 +79,12 @@
 					estimulando la investigación y coadyuvando al proceso formativo de los profesionales de la salud</p>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
-				<img id="fotoNosotros" class="img-fluid shadow" src="imagenes/fotoMision.jpg" alt="">
+				<img id="fotoNosotros" class="img-fluid shadow" src="imagenes/fotos/fotoMision.jpg" alt="">
 			</div>
 		</div>
 		<div class="row align-items-center py-5">
 			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
-				<img id="fotoNosotros" class="img-fluid shadow" src="imagenes/fotoVision.jpg" alt="">
+				<img id="fotoNosotros" class="img-fluid shadow" src="imagenes/fotos/fotoVision.jpg" alt="">
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
 				<h1 class="display-5 text-center text-success fw-bolder">Nuestra Visión</h1>
@@ -90,13 +98,14 @@
 
 		</div>
 	</div>
+	<!-- FOOTER -->
 	<div class="pieDePagina" style="background-color: #ae872f;">
 		<div class="container">
 			<footer id="footer">
 				<div class="row justify-content-sm-center">
 					<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
 						<a href="index.html" class="logo me-auto"> <img class="img-fluid"
-								src="imagenes/logoAliviari.png" height="300px" width="250px" alt=""></a>
+								src="imagenes/fotos/logoAliviari.png" height="300px" width="250px" alt=""></a>
 					</div>
 					<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 py-4 ">
 						<h2 class="h4 pb-lg-3 text-light light-300 ">Contáctanos</h2>
@@ -142,7 +151,8 @@
 					<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 py-4">
 						<h2 class="h4 pb-lg-3 text-light light-300">Con el respaldo de:</h2>
 						<a href="https://www.ucsm.edu.pe" class="logo me-auto light"> <img class="img-fluid"
-								src="imagenes/ucsm-logo-retina- positivo.png" height="100px" width="250px" alt=""></a>
+								src="imagenes/fotos/ucsm-logo-retina- positivo.png" height="100px" width="250px"
+								alt=""></a>
 					</div>
 				</div>
 				<div class="w-100  py-2 text-center bold-300">
@@ -163,7 +173,7 @@
 								</li>
 								<li class="list-inline-item m-0">
 									<a class="text-light" target="_blank"
-										href=https://wa.me/5194077849?text=Buenos%20días,%20quisiera%20hacer%20una%20consulta.>
+										href="https://api.whatsapp.com/send?phone=+51973685384&text=Buenos%20d%C3%ADas,%20quisiera%20realizar%20una%20consulta.">
 										<i class='bx bxl-whatsapp-square bx-md'></i>
 									</a>
 							</ul>
@@ -175,9 +185,6 @@
 			</footer>
 		</div>
 	</div>
-
-
-
 
 
 </body>
