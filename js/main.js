@@ -3,7 +3,6 @@
 
 
 
-
     // Initiate the wowjs
     new WOW().init();
 
@@ -23,7 +22,7 @@
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
-        time: 1200
+        time: 1500
     });
 
 
@@ -33,15 +32,13 @@
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1500,
+        smartSpeed: 2000,
         loop: true,
         nav: false,
         dots: true,
         items: 1,
         dotsData: true,
     });
-
-
 
 
 
