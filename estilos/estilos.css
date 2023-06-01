@@ -7,13 +7,15 @@
     --grisclaro: #D0C9C9;
 }
 
-a,
+
 h1,
 h2,
 .h1,
 .h2,
 .fw-bold {
     font-weight: 600 !important;
+    font-family: 'Harabara', sans-serif;
+
 }
 
 
@@ -23,6 +25,8 @@ h4,
 .h4,
 .fw-medium {
     font-weight: 500 !important;
+    font-family: 'Harabara', sans-serif;
+
 }
 
 
@@ -32,6 +36,8 @@ h6,
 .h6,
 .fw-normal {
     font-weight: 400 !important;
+
+
 }
 
 /*** Titulo ***/
@@ -40,6 +46,8 @@ h6,
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
+    font-family: 'Harabara', sans-serif;
+
 }
 
 /* NAVBAR CSS */
@@ -87,8 +95,6 @@ h6,
 
 .carousel-control-next-icon {
     border-radius: 3rem 0 0 3rem;
-
-
 }
 
 /* SOBRE NOSOTROS */
@@ -175,7 +181,7 @@ ul li a i:hover {
 
 @media (max-width:576px) {
     .card-text {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     #googleMaps {

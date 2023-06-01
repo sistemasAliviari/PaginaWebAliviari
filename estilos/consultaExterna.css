@@ -62,10 +62,18 @@ h6,
   transition: .5;
 }
 
-.service-item:hover * {
+.service-item .service-text:hover {
   color: #FFFFFF;
-  text-align: center;
+  text-align: justify;
 }
+
+.service-item .service-text .h3 :hover {
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+
+
 
 .service-item .btn {
   width: 40px;
@@ -92,7 +100,7 @@ h6,
 }
 
 .service-item:hover {
-  
+
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
