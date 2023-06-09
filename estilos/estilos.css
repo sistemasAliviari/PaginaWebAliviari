@@ -26,7 +26,6 @@ h4,
 .fw-medium {
     font-weight: 500 !important;
     font-family: 'Harabara', sans-serif;
-
 }
 
 
@@ -34,11 +33,13 @@ h5,
 h6,
 .h5,
 .h6,
-.fw-normal {
-    font-weight: 400 !important;
-
-
+p,
+.p {
+    font-weight: 300 !important;
+    font-family: 'Jost', sans-serif;
 }
+
+
 
 /*** Titulo ***/
 .section-title {
