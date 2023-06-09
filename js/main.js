@@ -26,13 +26,10 @@
     });
 
 
-
-
-
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 2000,
+        smartSpeed: 5000,
         loop: true,
         nav: false,
         dots: true,

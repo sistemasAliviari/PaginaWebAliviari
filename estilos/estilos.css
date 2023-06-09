@@ -209,8 +209,7 @@ ul li a i:hover {
 
 
 
-/* FOOLTIP NAVBAR  */
-#fp-nav {
+/* FOOLTIP NAVBAR #fp-nav {
     position: fixed;
     z-index: 100;
     margin-top: -32px;
@@ -363,7 +362,9 @@ ul li a i:hover {
     width: auto;
 }
 
+*/
 
+/* CONTADORES ESTADISTICAS */
 :root {
     --main-color: #008037;
 }
@@ -451,37 +452,161 @@ ul li a i:hover {
     height: 100%;
 }
 
-body {
-    background-color: #eee
+/* SUBTITULO FLOTANTE */
+.sub-ttl-flotant {
+    position: relative;
+    padding-top: 1em;
+    margin-bottom: 2em;
+
 }
 
-.carousel-inner img {
-    width: 100%
+.sub-ttl-flotant:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background-color: #008037;
+    bottom: -18px;
 }
 
-.carousel-item img {
-    width: 320px;
-    height: 240px !important
+/* CARRUSEL LOGOS EMPRESAS */
+.slick-slide {
+    margin: 0px 20px;
 }
 
-#myCarousel .carousel-indicators {
-    position: static;
-    margin-top: 0px
+.slick-slide img {
+    width: 100%;
 }
 
-#myCarousel .carousel-indicators>li {
-    width: 100px
-}
-
-#myCarousel .carousel-indicators li img {
+.slick-slider {
+    position: relative;
     display: block;
-    opacity: 0.5
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
 }
 
-#myCarousel .carousel-indicators li.active img {
-    opacity: 1
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-#myCarousel .carousel-indicators li:hover img {
-    opacity: 0.75
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.item {
+    animation: animate 25s alternate linear infinite;
+}
+
+.container:hover .item {
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1100px, 0, 0);
+    }
+}
+
+@media (max-width:767px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+
+    .wrapper {
+        width: 95%;
+        border-radius: 0;
+        padding: 0;
+    }
 }
