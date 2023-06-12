@@ -65,7 +65,7 @@ p,
     font-size: 18px;
 }
 
-.navbar.sticky-top {
+*/ .navbar.sticky-top {
     top: -100px;
     transition: .5s;
     -webkit-transition: .5s;
