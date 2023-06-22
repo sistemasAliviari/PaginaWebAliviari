@@ -207,6 +207,9 @@ ul li a i:hover {
         margin-left: auto;
         margin-right: auto;
     }
+    #imgSlide{
+        height: 400px;
+    }
 }
 
 
