@@ -33,19 +33,14 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- ESTILOS ARCHIVO CSS -->
-
-    <link href="estilos/main.css" rel="stylesheet">
-
+    <link href="estilos/estilos.css" rel="stylesheet">
 
     <!-- FUENTE LETRA PARRAFO -->
     <style>
@@ -56,86 +51,8 @@
 </head>
 
 <body>
-    <header id="header" class="header fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>Yummy<span>.</span></h1>
-            </a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#chefs">Chefs</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav><!-- .navbar -->
-
-            <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-        </div>
-    </header>
-    <!-- End Header -->
-    <!-- <header id="header" class="header fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between mt-auto mb-auto ms-auto me-auto  ">
-            <a href="index.html" class="logo me-auto"> <img class="img-fluid" src="imagenes/fotos/Logo-sin-Fondo.png"
-                    height="250px" width="120px" alt=""></a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="#hero">Inicio</a></li>
-                    <li class="dropdown"><a href="#"><span>Nosotros</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="#">Visión y Misión</a></li>
-                            <li><a href="#">Trabaja con Nosotros</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#menu">Resultados</a></li>
-                    <li class="dropdown"><a href="#"><span>Servicios</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="#">Consulta Externa</a></li>
-                            <li><a href="#">Salud Ocupacional</a></li>
-                            <li><a href="#">Nuestros Especialistas</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contáctanos</a></li>
-                </ul>
-            </nav>
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        </div>
-    </header> -->
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a href="index.html" class="logo me-auto"> <img class="img-fluid ms-5" src="imagenes/fotos/Logo-sin-Fondo.png"
                 height="250px" width="120px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -143,65 +60,59 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse me-5 text-center align-items-sm-center" id="navbarSupportedContent">
-            <ul id="lista" class="navbar-nav ms-auto text-center">
-                <li id="itemBarra" class="nav-item">
-                    <a id="textoItem" class="nav-link " href="index.html">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success 300 rounded-pill px-4  " href="index.html">
                         Inicio</a>
                 </li>
-                <li id="itemBarra" class="nav-item">
-                    <a id="textoItem" class="nav-link " href="nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success 300 rounded-pill px-4" href="nosotros.html">Nosotros</a>
                 </li>
-                <li id="itemBarra" class="nav-item">
-                    <a id="textoItem" class="nav-link " href="resultados.html">Resultados</a>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success 300 rounded-pill px-4 " href="resultados.html">Resultados</a>
                 </li>
-                <div class="nav-item dropdown">
-                    <a id="textoItem" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
-                    <div class="dropdown-menu border-light m-0">
-                        <a href="consultaExterna.html" class="dropdown-item">Consulta Externa</a>
-                        <a href="servicios.html" class="dropdown-item">Salud Ocupacional</a>
-                        <a href="especialistas.html" class="dropdown-item">Especialistas</a>
-                    </div>
-                </div>
-                <li id="itemBarra" class="nav-item">
-                    <a id="textoItem" class="nav-link " href="contactanos.html">Contáctanos</a>
+                <li class="nav-item dropdown btn-outline-success 300 rounded-pill px-4 ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item btn-outline-success 300 rounded-pill px-4 text-success "
+                                href="consultaExterna.html">Consulta Externa</a></li>
+                        <li><a class="dropdown-item btn-outline-success 300 rounded-pill px-4 text-success"
+                                href="servicios.html">Salud Ocupacional</a>
+                        </li>
+                        <li><a class="dropdown-item btn-outline-success 300 rounded-pill px-4 text-success"
+                                href="especialistas.html">Especialistas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success 300 rounded-pill px-4"
+                        href="contactanos.html">Contáctanos</a>
                 </li>
             </ul>
-            <div class="d-none d-lg-flex ms-2">
-                <a class="btn btn-light btn-md-square rounded-circle ms-3"
-                    href="https://www.facebook.com/ClinicaAliviari/?locale=es_LA">
-                    <small class="fab fa-facebook-f text-primary"></small>
-                </a>
-                <a class="btn btn-light btn-md-square rounded-circle ms-3"
-                    href="https://api.whatsapp.com/send?phone=+51973685384&text=Buenos%20d%C3%ADas,%20quisiera%20realizar%20una%20consulta.">
-                    <small class="fab fa-whatsapp text-primary"></small>
-                </a>
-                <a class="btn btn-light btn-md-square rounded-circle ms-3"
-                    href="https://www.instagram.com/clinicaaliviari/?hl=es">
-                    <small class="fab fa-instagram text-primary"></small>
-                </a>
-            </div>
         </div>
-    </nav> -->
+    </nav>
+
 
     <!-- Carousel -->
     <section class="section-Carrusel carruselInicio">
-        <div class="container-fluid p-0 mb-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
             <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="servicios.html"><img class="w-100 img-fluid" src="imagenes/fotos/slide1.png"
-                                style="opacity: 1;" alt="Image"></a>
+                        <a href="servicios.html"><img id="imgSlide" class="w-100 img-fluid"
+                                src="imagenes/fotos/slide1.png" style="opacity: 1;" alt="Image"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="consultaExterna.html"><img class="w-100 img-fluid" style="opacity: 1;"
+                        <a href="consultaExterna.html"><img id="imgSlide" class="w-100 img-fluid" style="opacity: 1;"
                                 src="imagenes/fotos/slide2.png" style="opacity: 1;" alt="Image"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="resultados.html"><img class="w-100 img-fluid" style="opacity: 1;"
+                        <a href="resultados.html"><img id="imgSlide" class="w-100 img-fluid" style="opacity: 1;"
                                 src="imagenes/fotos/slide3.png " alt=" Image"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="https://wa.link/6f3weo"><img class="w-100 img-fluid" style=" opacity: 1;"
+                        <a href="https://wa.link/6f3weo"><img id="imgSlide" class="w-100 img-fluid" style=" opacity: 1;"
                                 src="imagenes/fotos/slide4.png" alt="Image"></a>
 
                     </div>
@@ -460,8 +371,7 @@
                                 <label for="mensaje" class="form-label">Mensaje</label>
                                 <textarea name="Mensaje" class="form-control" rows="3"></textarea>
                             </div>
-                            <input type="hidden" name="_next"
-                                value="https://clinicaaliviari.netlify.app/EnvioFormExitoso.html">
+                            <input type="hidden" name="_next" value="https://aliviari.com/EnvioFormExitoso">
                             <input type="hidden" name="_template" value="table">
                             <input type="hidden" name="_captcha" value="false">
                             <div class="row justify-content-center align-items-center mb-5 ">
@@ -589,24 +499,18 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Script JavaScript -->
     <script src="js/main.js"></script>
-    <script src="js/prueba.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-    <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
@@ -620,7 +524,6 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
-    <!--End of Tawk.to Script-->
 </body>
 
 </html>
